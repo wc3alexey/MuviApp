@@ -36,7 +36,7 @@ export default class App extends Component {
       this.changeRateList();
     }
   }
-
+// для комита
   onInputChange = (e) => {
     this.setState({
       searchQuery: e.target.value,
